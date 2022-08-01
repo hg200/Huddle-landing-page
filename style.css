@@ -1,0 +1,161 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .container {
+    display: flex;
+    gap: 20px;
+}
+
+.header .container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header .container img {
+    height: 200px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 22px
+}
+
+.logo img {
+    height: 18px;
+    width: 100px;
+}
+
+.header .top button {
+    background-color: white;
+    border-style: none;
+}
+
+.header .container button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-style: none;
+}
+
+.body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px 150px 30px;
+    gap: 20px;
+}
+
+.body img {
+    height: 150px;
+    width: 200px;
+}
+
+.body .container {
+    display: flex;
+    height: 200px;
+    padding: 0 10px 0 40px;
+    gap: 60px;
+    border-style: ridge;
+    border-radius: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.body .container .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .panel {
+    height: 150px;
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px 40px 40px;
+    gap: 20px;
+}
+
+.footer .logo {
+    color: black;
+}
+
+.footer .content {
+    display: flex;
+    gap: 40px;
+}
+
+.footer .column {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 15px;
+}
+
+.footer .first .location,
+.call,
+.mail {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .fourth .facebook img {
+    height: 40px;
+    color: white;
+    margin-top: -4px;
+}
+
+.footer .fourth .twitter img {
+    height: 33px;
+    color: white;
+}
+
+.footer .fourth .instagram img {
+    height: 30px;
+    color: white;
+}
+
+.footer .fourth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.footer .bottom {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.footer .copyright,
+.attribution {
+    font-size: 10px;
+}
