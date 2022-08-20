@@ -48,12 +48,14 @@ body {
 .header .top button {
     background-color: white;
     border-style: none;
+    border-radius: 10px;
 }
 
 .header .container button {
     background-color: hsl(322, 100%, 66%);
     color: white;
     border-style: none;
+    border-radius: 10px;
 }
 
 .body {
@@ -75,7 +77,7 @@ body {
     padding: 0 10px 0 40px;
     gap: 60px;
     border-style: ridge;
-    border-radius: 3%;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
 }
